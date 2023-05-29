@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    {{>headerLinks}}
+  </head>
+  <body>
+    {{!-- navbar part  --}}
+
+    {{>navbar}}
+
+    <!-- main header  -->
+    <div class="container-fluid main-header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row inner-row">
+            <!-- left side div  -->
+            <div class="col-lg-6 col-md-12 col-12 main-header-right">
+              <figure>
+                <img
+                  src="images/aboutImg.png"
+                  alt="about-img"
+                  class="img-fluid"
+                />
+              </figure>
+            </div>
+            <!-- right side div  -->
+            <div class="col-lg-6 col-md-12 col-12 main-header-left">
+              <p>About our app</p>
+              <h1>
+                We guide you the latest weather of any city. Just one tap and
+                you can see it.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer part  -->
+    {{>footer}}
+  </body>
+</html>
